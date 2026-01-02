@@ -1,0 +1,17 @@
+{
+    "name": "gaia-whale-agent",
+    "version": "1.0.0",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "start": "node index.js"
+    },
+    "dependencies": {
+        "@envio-dev/hypersync-client": "^0.7.2",
+        "dotenv": "^17.2.3",
+        "graphql": "^16.8.1",
+        "graphql-request": "^6.1.0",
+        "openai": "^4.28.0",
+        "viem": "^2.43.4"
+    }
+}
